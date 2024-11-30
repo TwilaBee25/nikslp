@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="nikslp.css">
+</head>
+
+<body>
+    <div id="console_window">
+        <div id="console_window_header">nikslp</div>
+        <div id="console_content">
+            <div id="console_output"></div>
+            <div id="console_input"></div>
+            <div id="console_cursor">_</div>
+        </div>
+    </div>
+
+    <script src="nikslp.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Put your code here if you need to execute JavaScript after the DOM is fully loaded
+            dragElement(document.getElementById("console_window"));
+        });
+    </script>
+</body>
+
+</html>
